@@ -1,5 +1,11 @@
 # Apache HTTP Server (httpd) S2I Sample Application
 
+Mike's notes:
+```
+$ oc new-project webserver
+$ oc new-app openshift/nginx-example -p SOURCE_REPOSITORY_URL=https://github.com/myarbrou-rh/nginx-ex.git
+```
+
 This is a very basic sample application repository that can be built and deployed
 on [OpenShift](https://www.openshift.com) using the [Apache HTTP Server builder image](https://github.com/sclorg/httpd-container).
 
